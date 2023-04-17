@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9ab6584bae.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Buy Data | Page
+  </title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="profile">
+        <i class="fa fa-user"></i>
+        <br>
+        <h3>Asenuga Faith</h3>
+      </div>
+      <ul>
+        <li><i class="fa fa-house"></i><a href="./index.html">Dashboard</a></li>
+        <li><a href="./data.html"><i class="fa fa-laptop"></i>Buy Data</a></li>
+        <li><a href="./airtime.html"><i class="fa fa-laptop"></i>Buy Airtime</a></li>
+        <li><a href="./dataepin.html"><i class="fa fa-id-card"></i>Data EPins</a></li>
+        <li><a href=""><i class="fa fa-google-wallet"></i>Fund Wallet</a></li>
+        <li><a href=""><i class="fa fa-cog"></i>Setting</a></li>
+        <li><a href=""><i class="fa fa-power-off"></i>Log out</a></li>
+        <li><a href=""><i class="fa fa-envelope"></i>Register</a></li>
+      </ul>
+    </div>
+    <div id="content" class="">
+      <div class="nav">
+        <div class="menu">
+              <div id="open">
+               <button><i class="fa fa-bars"></i></button>
+              </div>
+  
+             <div id="close">
+                <button><i class="fa fa-close"></i></button>
+              </div>
+              <h2><i class="fa fa-wifi"></i> MultiTee</h2>
+        </div>
+      </div>
+      <section>
+        <div class="datapage">
+          <div class="datalistpage">
+            <div class="datalist">
+              <h2>Codes for Data Balance</h2>
+            </div>
+            <div class="datalist airtel">
+              <p>Airtel: *140#</p>
+            </div>
+            <div class="datalist glo">
+              <p>Glo: *127*0#</p>
+            </div>
+            <div class="datalist mtn">
+              <p>MTN: *131*4#</p>
+            </div>
+            <div class="datalist etisalat">
+              <p>9mobile: </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="data">
+        <div class="dataform">
+          <form action="process.php">
+          <h1>Buy Airtime:</h1>
+
+          <div class="form">
+            <label for="text"><b>Select Network:</b></label>
+            <div class="network">
+              <div class="airtel airtel1" id="net">Airtel</div>
+             <div class="glo glo1" id="net">Glo</div>
+             <div class="mtn mtn1" id="net">MTN</div>
+              <div class="etisalat etisalat1" id="net">9mobile</div>
+              
+
+            </div>
+
+          </div>
+
+          <div class="form">
+            <label for="text">Amount</label>
+            
+            <div id="">
+             <input type="number" name="" id="">
+            </div>
+            
+          </div>
+
+          <div class="form">
+            <label for="text">Pay</label>
+          <input type="number" name="" id="">
+          </div>
+
+        
+          <div class="form">
+            <label for="number">Mobile Number</label>
+            <input type="number" name="number" id="number" placeholder="Please make sure you input the right number...">
+          </div>
+          <button>Buy</button>
+        </form>
+        </div>
+      </div>
+
+      
+
+      
+<script src="./script.js"></script>
+</body>
+</html>
